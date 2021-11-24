@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container{
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+.app{
+    background-image:url('../Marathone/img/bg-1.png');
+    color: white;
+    text-align: center;
+    padding: 80px 0 162px;
+}
+
+.app_pretitle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.app_title{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+.app_text{
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 54px;
+}
+
+.button{
+    width: 236px;
+    height: 68px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.button:first-of-type{
+    background-color:#FA4A0C;
+    border: 1px solid#FA4A0C;
+    margin-right: 67px;
+}
+
+.button:last-of-type{
+    background: none;
+    border: 1px solid white;
+}
+
+.order{
+    color: white;
+    text-align: center;
+    background-image: url('../Marathone/img/bg-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 141px 0 130px ;
+}
+
+.order_pretitle {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    margin-bottom: 20px;
+}
+
+.order_text {
+    font-size: 24px;
+    line-height: 38px;
+    margin: 10px 0 50px;
+}
+
+.button_two{
+    height: 64px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.button_two:first-of-type{
+    background-color:#FA4A0C;
+    border: 1px solid#FA4A0C;
+    margin-right: 16px;
+    width: 142px;
+    
+}
+
+.button_two:last-of-type{
+    background: none;
+    border: 1px solid white;
+    width: 173px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.nav_li{
+    display: inline-block;
+}
+
+.nav_li:not(:last-of-type){
+    margin-right: 94px;
+}
+
+.nav_link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav_link:hover{
+    color: #FA4A0C;
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.mobile_h{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    color: black;
+    text-align: center;
+    margin: 56px 0 70px;
+    
+}
+
+.mobile_pretitle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+}
+
+.mobile_title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    color: black;
+    max-width: 560px;
+}
+
+.mobile_text{
+    font-size: 24px;
+    line-height: 38px;
+    max-width: 400px;
+    color:#737373;       
+}
+
+.mobile_title:last-of-type{
+    max-width: 400px;
+}
+
+.footer{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 40px auto; 
+}
